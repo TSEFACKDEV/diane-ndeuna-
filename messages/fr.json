@@ -1,0 +1,859 @@
+{
+  "common": {
+    "buttons": {
+      "learnMore": "En savoir plus",
+      "contactUs": "Contactez-nous",
+      "subscribe": "S'abonner",
+      "send": "Envoyer",
+      "login": "Connexion",
+      "register": "Inscription",
+      "logout": "Déconnexion",
+      "viewAll": "Voir tout",
+      "download": "Télécharger",
+      "readMore": "Lire la suite",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "close": "Fermer",
+      "next": "Suivant",
+      "previous": "Précédent",
+      "back": "Retour"
+    },
+    "labels": {
+      "loading": "Chargement",
+      "required": "Champ requis",
+      "email": "Adresse e-mail",
+      "name": "Nom complet",
+      "phone": "Téléphone",
+      "message": "Message",
+      "organization": "Organisation",
+      "country": "Pays"
+    },
+    "fileUpload": {
+      "dragDrop": "Glissez-déposez votre fichier ici",
+      "dropHere": "Déposez votre fichier ici",
+      "browse": "Parcourir",
+      "formats": "JPG, PNG, WEBP, GIF, PDF — max {maxSize} MB",
+      "preview": "Aperçu",
+      "remove": "Supprimer",
+      "pdfUploaded": "PDF téléchargé",
+      "fileReady": "Fichier prêt",
+      "error": "Erreur lors du téléchargement"
+    }
+  },
+
+  "nav": {
+    "about": "À propos",
+    "expertise": "Expertises",
+    "ecosystem": "Écosystème",
+    "resources": "Ressources",
+    "blog": "Blog",
+    "events": "Événements",
+    "partnerships": "Partenariats",
+    "contact": "Contact",
+    "community": "Espace Membres"
+  },
+
+  "footer": {
+    "tagline": "Architecte de Systèmes Organisationnels, au service de la structuration des organisations féminines en Afrique francophone.",
+    "explore": "Explorer",
+    "contact": "Contact",
+    "links": {
+      "about": "À propos",
+      "expertise": "Nos expertises",
+      "ecosystem": "Notre écosystème",
+      "resources": "Ressources",
+      "blog": "Blog"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Recevez nos actualités, conseils et appels à projets.",
+      "placeholder": "Votre adresse e-mail",
+      "button": "OK",
+      "sending": "Envoi...",
+      "success": "Merci pour votre inscription !",
+      "error": "Une erreur est survenue, veuillez réessayer."
+    },
+    "rights": "Tous droits réservés.",
+    "madeWith": "Structurer. Accélérer. Transformer."
+  },
+
+  "home": {
+    "hero": {
+      "eyebrow": "Architecte de Systèmes Organisationnels",
+      "tagline": "L'Afrique n'a pas besoin d'héroïnes. Elle a besoin de systèmes. Je construis les systèmes.",
+      "quote": "Je n'aide pas les femmes à se révéler. Je rends leurs organisations capables de tenir sans elles.",
+      "ctaPrimary": "Découvrir Diane NDEUNA",
+      "ctaSecondary": "Nous contacter"
+    },
+    "values": {
+      "eyebrow": "Notre Vision",
+      "title": "Bâtir des organisations qui durent",
+      "visionQuote": "Bâtir des organisations de femmes structurées, influentes et fondées sur le socle de la performance durable en Afrique.",
+      "description": "Plus de 20 ans d'expérience intercontinentale au service de la structuration des organisations féminines, de la gouvernance et de la performance durable.",
+      "items": {
+        "excellence": {
+          "title": "Excellence et rigueur",
+          "description": "Une exigence professionnelle constante dans chaque accompagnement."
+        },
+        "solidarity": {
+          "title": "Solidarité",
+          "description": "Un engagement collectif au service des femmes leaders d'Afrique."
+        },
+        "integrity": {
+          "title": "Intégrité",
+          "description": "Une conduite éthique et transparente dans toutes nos actions."
+        },
+        "legacy": {
+          "title": "Transmission et héritage",
+          "description": "Construire aujourd'hui ce qui servira les générations futures."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "Actions & Impacts",
+      "title": "Un impact mesurable sur le terrain",
+      "labels": {
+        "organizations": "Organisations accompagnées",
+        "sustainability": "Taux de pérennité à 3 ans",
+        "women": "Femmes formées",
+        "partners": "Partenaires institutionnels"
+      }
+    },
+    "expertisePreview": {
+      "eyebrow": "Nos Expertises",
+      "title": "Quatre domaines d'intervention",
+      "readMore": "En savoir plus",
+      "viewAll": "Voir toutes les expertises",
+      "items": {
+        "structuration": {
+          "title": "Structuration des Organisations",
+          "description": "Diagnostic, planification stratégique et gouvernance pour des organisations féminines pérennes."
+        },
+        "developpement": {
+          "title": "Développement de Projets",
+          "description": "De la conception au déploiement, en passant par le montage et le financement."
+        },
+        "formation": {
+          "title": "Formation & Coaching",
+          "description": "Leadership institutionnel, gestion de projet et mobilisation de ressources."
+        },
+        "conseil": {
+          "title": "Conseil Stratégique",
+          "description": "Accompagnement institutionnel, mise en réseau et conformité internationale."
+        }
+      }
+    },
+    "ecosystemPreview": {
+      "eyebrow": "Notre Écosystème",
+      "title": "Quatre entités, une même vision",
+      "viewAll": "Découvrir l'écosystème complet",
+      "items": {
+        "adef": {
+          "name": "ADEF",
+          "tagline": "Agence de Développement de l'Entrepreneuriat Féminin"
+        },
+        "eden": {
+          "name": "EDEN AFRICA",
+          "tagline": "Structurer. Accélérer. Transformer."
+        },
+        "mia": {
+          "name": "MIA AFRICA",
+          "tagline": "Africaines Augmentées"
+        },
+        "oscf": {
+          "name": "OSCF",
+          "tagline": "Observatoire de la Société Civile Francophone"
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "Ils nous font confiance"
+    },
+    "newsletter": {
+      "eyebrow": "Restez informée",
+      "title": "Rejoignez notre communauté",
+      "description": "Actualités de l'entrepreneuriat féminin, conseils de l'experte et appels à projets, directement dans votre boîte mail.",
+      "placeholder": "Votre adresse e-mail",
+      "button": "S'abonner",
+      "success": "Merci pour votre inscription à la newsletter.",
+      "error": "Une erreur est survenue, veuillez réessayer."
+    }
+  },
+
+  "about": {
+    "bio": {
+      "eyebrow": "À Propos",
+      "title": "Diane NDEUNA, Architecte de systèmes organisationnels",
+      "summary": "Je transforme l'engagement utile en systèmes autonomes capables de dialoguer avec les institutions.",
+      "badges": {
+        "experience": "Plus de 20 ans d'expérience",
+        "eden": "Présidente Exécutive d'EDEN AFRICA",
+        "movement": "Secrétaire Permanente du Mouvement des Entrepreneurs du Cameroun"
+      },
+      "paragraph1": "Diane NDEUNA accompagne depuis plus de vingt ans la structuration d'organisations féminines à travers l'Afrique francophone, en combinant rigueur méthodologique et compréhension fine des réalités institutionnelles locales.",
+      "paragraph2": "Son expérience intercontinentale, entre l'Afrique, l'Europe et les États-Unis, nourrit une approche à la fois exigeante et profondément ancrée dans les contextes africains qu'elle sert.",
+      "languages": "Français, Anglais, Espagnol (pratique)",
+      "experience": "Afrique, Europe, États-Unis"
+    },
+    "timeline": {
+      "eyebrow": "Parcours",
+      "title": "Un engagement de plus de 20 ans",
+      "items": {
+        "foundation": {
+          "period": "Fondations",
+          "title": "Formation et premiers engagements",
+          "description": "Construction d'une expertise solide en structuration organisationnelle et gouvernance, au contact direct des organisations féminines africaines."
+        },
+        "eden": {
+          "period": "Présidence",
+          "title": "Présidente Exécutive d'EDEN AFRICA",
+          "description": "Direction d'une organisation panafricaine d'impact, active depuis 14 ans dans 15 pays, accréditée auprès de l'OIF."
+        },
+        "international": {
+          "period": "Rayonnement",
+          "title": "Expérience intercontinentale",
+          "description": "Déploiement de son expertise entre l'Afrique, l'Europe et les États-Unis, au service d'un réseau institutionnel élargi."
+        },
+        "recognition": {
+          "period": "Reconnaissance",
+          "title": "Présidence du COING Francophonie 2024-2025",
+          "description": "Reconnaissance institutionnelle à la tête de 128 organisations au sein du COING Francophonie."
+        }
+      }
+    },
+    "impacts": {
+      "eyebrow": "Actions & Impacts",
+      "title": "Un engagement qui se mesure",
+      "stats": {
+        "organizations": "Organisations accompagnées",
+        "sustainability": "Taux de pérennité à 3 ans",
+        "women": "Femmes formées",
+        "partners": "Partenaires institutionnels"
+      },
+      "actions": {
+        "governance": {
+          "title": "Renforcement des capacités de gouvernance",
+          "description": "Accompagnement des organes de décision vers une gouvernance structurée et performante."
+        },
+        "financing": {
+          "title": "Accès aux financements",
+          "description": "Mobilisation de ressources et accompagnement vers les financements internationaux."
+        },
+        "advocacy": {
+          "title": "Plaidoyer et représentation",
+          "description": "Représentation institutionnelle au service de la visibilité des organisations féminines."
+        },
+        "networks": {
+          "title": "Création de réseaux",
+          "description": "Mise en relation des organisations avec un écosystème de partenaires stratégiques."
+        }
+      }
+    },
+    "medias": {
+      "eyebrow": "Médias",
+      "title": "Présence numérique et médiatique",
+      "description": "Diane NDEUNA intervient régulièrement dans les médias et lors d'événements institutionnels pour porter la voix des organisations féminines africaines.",
+      "upcomingEvent": {
+        "title": "Formation des formatrices",
+        "date": "9 et 10 juin 2026"
+      },
+      "cta": "Voir tous les événements"
+    }
+  },
+
+  "expertise": {
+    "index": {
+      "eyebrow": "Nos Expertises",
+      "title": "Quatre domaines d'intervention",
+      "description": "Un accompagnement structuré autour de quatre piliers complémentaires, au service de la pérennité des organisations féminines en Afrique.",
+      "readMore": "En savoir plus",
+      "backLabel": "Retour aux expertises"
+    },
+    "items": {
+      "structuration": {
+        "title": "Structuration des Organisations Féminines",
+        "description": "Diagnostic organisationnel, planification stratégique et gouvernance pour des organisations pérennes.",
+        "longDescription": "Un accompagnement complet pour transformer l'engagement en organisations solides, capables de dialoguer avec les institutions et de tenir dans le temps.",
+        "servicesTitle": "Nos services",
+        "services": [
+          "Diagnostic organisationnel",
+          "Planification stratégique",
+          "Mécanismes de suivi-évaluation",
+          "Élaboration des statuts et règlements intérieurs",
+          "Mise en place de Conseils d'administration",
+          "Structuration financière et comptable",
+          "Certification et conformité légale",
+          "Accompagnement à l'accréditation auprès des instances internationales"
+        ]
+      },
+      "developpement": {
+        "title": "Développement de Projets Féminins",
+        "description": "De la conception au déploiement, en passant par le montage et le financement.",
+        "longDescription": "Un accompagnement structuré en quatre phases pour transformer une idée en projet financé et opérationnel, dans des secteurs clés du développement africain.",
+        "phasesTitle": "Les quatre phases",
+        "phases": ["Conception", "Montage", "Financement", "Déploiement"],
+        "sectorsTitle": "Secteurs d'intervention",
+        "sectors": ["Agriculture", "Éducation", "Technologie", "Artisanat", "Environnement", "Gouvernance locale"]
+      },
+      "formation": {
+        "title": "Formation & Coaching",
+        "description": "Leadership institutionnel, gestion de projet et mobilisation de ressources.",
+        "longDescription": "Des formations et un accompagnement individualisé pour renforcer les compétences des femmes leaders à chaque étape de leur parcours.",
+        "themesTitle": "Thèmes de formation",
+        "themes": [
+          "Leadership institutionnel",
+          "Gestion de projet",
+          "Mobilisation de ressources"
+        ],
+        "coachingTitle": "Formats de coaching",
+        "coachingTypes": [
+          "Coaching individuel",
+          "Coaching d'équipe",
+          "Mentorat de seniors",
+          "Groupes de pairs",
+          "Prise de parole publique",
+          "Transition de rôle"
+        ]
+      },
+      "conseil": {
+        "title": "Conseil & Accompagnement Stratégique",
+        "description": "Accompagnement institutionnel, mise en réseau et conformité internationale.",
+        "longDescription": "Un accompagnement stratégique de haut niveau pour structurer la vision, renforcer la position institutionnelle et préparer l'accès aux financements internationaux.",
+        "axesTitle": "Quatre axes d'accompagnement",
+        "axes": {
+          "strategic": "Conseil Stratégique",
+          "institutional": "Accompagnement Institutionnel",
+          "networking": "Mise en Réseau",
+          "compliance": "Conformité & Certification"
+        },
+        "diagnostic": {
+          "eyebrow": "Auto-diagnostic",
+          "title": "Votre organisation est-elle prête pour un financement international ?",
+          "introTitle": "Évaluez votre organisation en 5 questions",
+          "introDescription": "Ce diagnostic rapide vous donne une première estimation de votre niveau de préparation institutionnelle, en moins de deux minutes.",
+          "startButton": "Démarrer mon auto-diagnostic",
+          "questionProgress": "Question {current} sur {total}",
+          "previous": "Précédent",
+          "next": "Suivant",
+          "continueToContact": "Continuer",
+          "questions": {
+            "governance": {
+              "label": "Comment évaluez-vous la gouvernance de votre organisation ?",
+              "options": {
+                "0": "Aucune structure de gouvernance formelle",
+                "1": "Gouvernance informelle, non documentée",
+                "2": "Conseil d'administration en place, fonctionnement irrégulier",
+                "3": "Gouvernance structurée, documentée et active"
+              }
+            },
+            "financials": {
+              "label": "Quel est l'état de votre gestion financière et comptable ?",
+              "options": {
+                "0": "Pas de comptabilité formelle",
+                "1": "Comptabilité basique, non auditée",
+                "2": "Comptabilité tenue, audits occasionnels",
+                "3": "Comptabilité rigoureuse, audits réguliers"
+              }
+            },
+            "compliance": {
+              "label": "Votre organisation est-elle en conformité légale ?",
+              "options": {
+                "0": "Statuts non déposés ou expirés",
+                "1": "Statuts déposés, conformité partielle",
+                "2": "Conformité légale à jour",
+                "3": "Conformité complète, certifications obtenues"
+              }
+            },
+            "network": {
+              "label": "Quel est votre niveau de mise en réseau institutionnelle ?",
+              "options": {
+                "0": "Aucun partenariat institutionnel",
+                "1": "Quelques contacts informels",
+                "2": "Partenariats établis avec quelques institutions",
+                "3": "Réseau institutionnel large et actif"
+              }
+            },
+            "reporting": {
+              "label": "Votre organisation produit-elle des rapports d'activité réguliers ?",
+              "options": {
+                "0": "Aucun rapport produit",
+                "1": "Rapports occasionnels, informels",
+                "2": "Rapports annuels réguliers",
+                "3": "Reporting structuré et régulier, conforme aux standards internationaux"
+              }
+            }
+          },
+          "contactTitle": "Recevez votre résultat détaillé",
+          "contactDescription": "Renseignez vos coordonnées pour accéder à votre score et recevoir des recommandations personnalisées.",
+          "organizationPlaceholder": "Nom de votre organisation",
+          "emailPlaceholder": "Votre adresse e-mail",
+          "seeResult": "Voir mon résultat",
+          "error": "Une erreur est survenue, veuillez réessayer.",
+          "resultEyebrow": "Votre score de préparation",
+          "resultLevels": {
+            "NOT_READY": {
+              "title": "Étape de fondation",
+              "description": "Votre organisation a besoin d'un accompagnement de structuration avant d'envisager un financement international. Diane NDEUNA peut vous guider dans cette première étape essentielle."
+            },
+            "IN_PROGRESS": {
+              "title": "En cours de structuration",
+              "description": "Des fondations sont posées mais des axes clés restent à renforcer. Un accompagnement ciblé peut accélérer votre préparation."
+            },
+            "READY": {
+              "title": "Niveau de préparation solide",
+              "description": "Votre organisation présente des bases solides. Un accompagnement stratégique peut vous permettre de franchir les derniers paliers vers le financement international."
+            },
+            "EXCELLENT": {
+              "title": "Excellente préparation institutionnelle",
+              "description": "Votre organisation est à un niveau de maturité élevé. Vous êtes prête à engager des démarches de financement international avec un accompagnement de positionnement stratégique."
+            }
+          },
+          "retake": "Refaire le diagnostic"
+        }
+      }
+    }
+  },
+
+  "ecosystem": {
+    "index": {
+      "eyebrow": "Notre Écosystème",
+      "title": "Quatre entités, une même vision",
+      "description": "Un écosystème intégré d'organisations complémentaires, au service de la structuration et de l'autonomisation des femmes africaines.",
+      "backLabel": "Retour à l'écosystème"
+    },
+    "detail": {
+      "downloadBrochure": "Télécharger la brochure",
+      "brochureUnavailable": "La brochure n'est pas encore disponible. Revenez bientôt."
+    },
+    "items": {
+      "adef": {
+        "name": "ADEF",
+        "tagline": "Agence de Développement de l'Entrepreneuriat Féminin",
+        "description": "Incubation, accélération et accès aux marchés pour les entrepreneures africaines.",
+        "longDescription": "ADEF accompagne les entrepreneures africaines à travers l'incubation, l'accélération, la mise en relation avec des investisseurs et l'accès aux marchés, via des programmes sectoriels ciblés et des événements dédiés.",
+        "servicesTitle": "Nos services",
+        "services": {
+          "incubation": "Incubation",
+          "matchmaking": "Mise en relation investisseurs",
+          "marketAccess": "Accès aux marchés"
+        }
+      },
+      "eden": {
+        "name": "EDEN AFRICA",
+        "tagline": "Structurer. Accélérer. Transformer.",
+        "slogan": "Structurer. Accélérer. Transformer.",
+        "description": "Organisation panafricaine d'impact présente dans 15 pays.",
+        "longDescription": "EDEN AFRICA est une organisation panafricaine d'impact active depuis 14 ans dans 15 pays, accréditée auprès de l'OIF, et présidente du COING Francophonie 2024-2025 regroupant 128 organisations.",
+        "stats": {
+          "years": "Années d'existence",
+          "countries": "Pays d'intervention",
+          "organizations": "Organisations membres du COING"
+        },
+        "badges": {
+          "oif": "Accréditée OIF",
+          "coing": "Présidence COING Francophonie 2024-2025"
+        }
+      },
+      "mia": {
+        "name": "MIA AFRICA",
+        "tagline": "Africaines Augmentées",
+        "slogan": "Africaines Augmentées",
+        "description": "Plateforme dédiée aux femmes dans l'intelligence artificielle.",
+        "longDescription": "MIA AFRICA — MAMIZA Intelligence Artificielle — s'engage face à la sous-représentation des femmes dans l'intelligence artificielle à travers des formations, du mentorat et des espaces de visibilité.",
+        "stat": "des professionnels de l'IA dans le monde sont des femmes",
+        "services": {
+          "training": "Formations",
+          "mentorship": "Mentorat",
+          "visibility": "Espaces de visibilité"
+        }
+      },
+      "oscf": {
+        "name": "OSCF",
+        "tagline": "Observatoire de la Société Civile Francophone",
+        "description": "Plateforme d'analyse des dynamiques citoyennes francophones.",
+        "longDescription": "L'OSCF est une plateforme internationale d'analyse des dynamiques citoyennes, produisant études, données et rapports sur la société civile francophone.",
+        "outputsTitle": "Nos productions",
+        "outputs": {
+          "studies": "Études",
+          "data": "Données",
+          "reports": "Rapports"
+        }
+      }
+    }
+  },
+
+  "resources": {
+    "index": {
+      "eyebrow": "Ressources",
+      "title": "Ressources & Outils",
+      "description": "Découvrez nos articles, livres, vidéos, podcasts et annuaires pour renforcer vos compétences et votre réseau."
+    },
+    "filters": {
+      "all": "Tous",
+      "ARTICLE": "Articles",
+      "BOOK_GUIDE": "Livres & Guides",
+      "VIDEO": "Vidéos",
+      "PODCAST": "Podcasts",
+      "EXTERNAL_LINK": "Liens externes"
+    },
+    "readMore": "En savoir plus",
+    "noResources": "Aucune ressource disponible pour le moment."
+  },
+
+  "blog": {
+    "index": {
+      "eyebrow": "Blog",
+      "title": "Analyses & Livres blancs",
+      "description": "Retrouvez les analyses de Diane NDEUNA sur la structuration des organisations féminines, le leadership et la gouvernance en Afrique."
+    },
+    "backToBlog": "Retour au blog",
+    "noPosts": "Aucun article publié pour le moment."
+  },
+
+  "events": {
+    "calendar": {
+      "eyebrow": "Calendrier",
+      "title": "Événements à venir",
+      "description": "Retrouvez ici tous les événements, formations et rendez-vous à venir de Diane NDEUNA et de son écosystème."
+    },
+    "past": {
+      "eyebrow": "Événements passés",
+      "title": "Nos événements passés",
+      "description": "Revivez nos événements à travers les photos et vidéos de nos galeries.",
+      "noMedia": "Aucun média disponible.",
+      "noMediaForEvent": "Cet événement ne dispose pas encore de médias.",
+      "galleryTitle": "Galerie complète"
+    },
+    "status": {
+      "upcoming": "À venir",
+      "ongoing": "En cours",
+      "past": "Passé",
+      "cancelled": "Annulé"
+    },
+    "featured": "À la une",
+    "filters": {
+      "all": "Tous",
+      "upcoming": "À venir",
+      "ongoing": "En cours",
+      "past": "Passés",
+      "cancelled": "Annulés"
+    },
+    "noEvents": "Aucun événement ne correspond à ce filtre.",
+    "readMore": "En savoir plus"
+  },
+
+  "partnerships": {
+    "index": {
+      "eyebrow": "Partenariats",
+      "title": "Partenariats & Collaboration",
+      "description": "Diane NDEUNA collabore avec des organisations engagées pour la structuration des femmes leaders en Afrique. Rejoignez notre réseau."
+    },
+    "partnersTitle": "Nos partenaires institutionnels",
+    "collaboration": {
+      "title": "Vous souhaitez collaborer avec nous ?",
+      "description": "Nous sommes ouverts aux partenariats stratégiques avec des organisations partageant notre vision d'un leadership féminin structuré et durable en Afrique.",
+      "points": [
+        "Accompagnement de vos projets de structuration organisationnelle",
+        "Mise en réseau avec notre écosystème de partenaires",
+        "Accès à notre expertise en gouvernance et financement"
+      ],
+      "cta": "Contactez-nous"
+    },
+    "form": {
+      "fullName": "Nom complet *",
+      "email": "Email *",
+      "phone": "Téléphone",
+      "organization": "Organisation *",
+      "subject": "Sujet *",
+      "message": "Message *",
+      "submit": "Envoyer",
+      "success": "Votre message a bien été envoyé.",
+      "successDetail": "Nous vous répondrons dans les plus brefs délais.",
+      "error": "Une erreur est survenue, veuillez réessayer."
+    }
+  },
+
+  "contact": {
+    "index": {
+      "eyebrow": "Contact",
+      "title": "Nous contacter",
+      "description": "Une question, un projet de partenariat, une demande d'accompagnement ? Écrivez-nous, nous vous répondrons rapidement."
+    },
+    "info": {
+      "title": "Nos coordonnées",
+      "social": "Suivez-nous",
+      "qrCode": "QR Code",
+      "qrDescription": "Scannez pour enregistrer nos coordonnées"
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "description": "Remplissez ce formulaire et nous vous répondrons dans les plus brefs délais.",
+      "fullName": "Nom complet *",
+      "email": "Email *",
+      "phone": "Téléphone",
+      "organization": "Organisation",
+      "subject": "Sujet *",
+      "message": "Message *",
+      "submit": "Envoyer",
+      "success": "Votre message a bien été envoyé.",
+      "successDetail": "Nous vous répondrons dans les plus brefs délais.",
+      "error": "Une erreur est survenue, veuillez réessayer."
+    }
+  },
+
+  "community": {
+    "login": {
+      "eyebrow": "Connexion",
+      "title": "Bienvenue dans l'Espace Membres",
+      "email": "Adresse e-mail",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "noAccount": "Pas encore de compte ?",
+      "registerLink": "Inscrivez-vous",
+      "error": "E-mail ou mot de passe incorrect"
+    },
+    "register": {
+      "eyebrow": "Inscription",
+      "title": "Rejoignez la communauté",
+      "description": "Accédez aux ressources exclusives, aux événements et aux outils de structuration pour votre organisation.",
+      "footer": "En vous inscrivant, vous acceptez nos conditions d'utilisation et notre politique de confidentialité.",
+      "step1": {
+        "fullName": "Nom complet *",
+        "email": "Email *",
+        "password": "Mot de passe *",
+        "confirmPassword": "Confirmer le mot de passe *",
+        "next": "Suivant"
+      },
+      "step2": {
+        "phone": "Téléphone",
+        "organization": "Organisation *",
+        "selectCountry": "Sélectionnez votre pays",
+        "back": "Retour",
+        "next": "Suivant"
+      },
+      "step3": {
+        "plans": {
+          "basic": {
+            "name": "Basic",
+            "period": "mois",
+            "features": [
+              "Accès aux ressources de base",
+              "Newsletter mensuelle",
+              "Événements en ligne"
+            ]
+          },
+          "premium": {
+            "name": "Premium",
+            "period": "mois",
+            "features": [
+              "Accès à toutes les ressources",
+              "Coaching mensuel",
+              "Événements exclusifs",
+              "Accès au réseau de partenaires",
+              "Outils de structuration avancés"
+            ]
+          }
+        },
+        "popular": "Populaire",
+        "paymentMethod": "Moyen de paiement",
+        "card": "Carte bancaire",
+        "mobileMoney": "Mobile Money",
+        "back": "Retour",
+        "submit": "S'inscrire et payer",
+        "processing": "Traitement en cours..."
+      }
+    },
+    "dashboard": {
+      "eyebrow": "Espace Membres",
+      "title": "Bienvenue dans votre espace",
+      "logout": "Déconnexion",
+      "membershipActive": "Adhésion active",
+      "membershipExpired": "Adhésion expirée",
+      "membershipPending": "Adhésion en attente",
+      "profile": "Profil",
+      "fullName": "Nom complet",
+      "email": "Email",
+      "organization": "Organisation",
+      "country": "Pays",
+      "resources": "Ressources",
+      "resourcesTitle": "Ressources membres",
+      "resourcesDescription": "Accédez à tous les outils, guides et contenus exclusifs pour structurer votre organisation.",
+      "download": "Télécharger",
+      "upgrade": "Passer à Premium",
+      "noAccess": "Votre adhésion est expirée ou en attente. Mettez à jour pour accéder à toutes les ressources.",
+      "renew": "Renouveler l'adhésion"
+    },
+    "newsletterUnsubscribed": {
+      "title": "Vous êtes désinscrit(e)",
+      "description": "Vous ne recevrez plus d'emails de notre newsletter. Si c'était une erreur, vous pouvez vous réinscrire à tout moment.",
+      "home": "Retour à l'accueil",
+      "contact": "Nous contacter"
+    }
+  },
+
+  "newsletter": {
+    "success": "Merci pour votre inscription !",
+    "error": "Une erreur est survenue, veuillez réessayer.",
+    "confirmation": {
+      "title": "Confirmation d'inscription",
+      "description": "Un email de confirmation vous a été envoyé."
+    }
+  },
+
+  "admin": {
+    "sidebar": {
+      "dashboard": "Tableau de bord",
+      "members": "Membres",
+      "events": "Événements",
+      "resources": "Ressources",
+      "blog": "Blog",
+      "newsletter": "Newsletter",
+      "messages": "Messages",
+      "logout": "Déconnexion"
+    },
+    "header": {
+      "welcome": "Bienvenue,"
+    },
+    "dashboard": {
+      "title": "Tableau de bord",
+      "description": "Vue d'ensemble de votre activité",
+      "stats": {
+        "members": "Membres",
+        "events": "Événements",
+        "resources": "Ressources",
+        "blogPosts": "Articles publiés",
+        "subscribers": "Abonnés newsletter",
+        "messages": "Messages non lus"
+      }
+    },
+    "members": {
+      "title": "Gestion des membres",
+      "description": "Consultez et gérez tous les membres de la plateforme",
+      "columns": {
+        "fullName": "Nom",
+        "email": "Email",
+        "organization": "Organisation",
+        "role": "Rôle",
+        "status": "Statut"
+      }
+    },
+    "events": {
+      "title": "Gestion des événements",
+      "description": "Créez, modifiez et gérez tous les événements",
+      "add": "Ajouter un événement",
+      "edit": "Modifier l'événement",
+      "confirmDelete": "Voulez-vous vraiment supprimer cet événement ?",
+      "columns": {
+        "title": "Titre",
+        "location": "Lieu",
+        "date": "Date",
+        "status": "Statut"
+      },
+      "form": {
+        "titleFr": "Titre (FR)",
+        "titleEn": "Titre (EN)",
+        "descriptionFr": "Description (FR)",
+        "descriptionEn": "Description (EN)",
+        "location": "Lieu",
+        "startDate": "Date de début",
+        "endDate": "Date de fin",
+        "status": "Statut",
+        "registrationUrl": "URL d'inscription",
+        "coverImage": "Image de couverture",
+        "isFeatured": "À la une",
+        "create": "Créer",
+        "update": "Mettre à jour",
+        "cancel": "Annuler",
+        "error": "Une erreur est survenue"
+      }
+    },
+    "blog": {
+      "title": "Gestion du blog",
+      "description": "Créez et gérez les articles du blog",
+      "add": "Ajouter un article",
+      "edit": "Modifier l'article",
+      "confirmDelete": "Voulez-vous vraiment supprimer cet article ?",
+      "published": "Publié",
+      "draft": "Brouillon",
+      "columns": {
+        "title": "Titre",
+        "slug": "Slug",
+        "status": "Statut"
+      },
+      "form": {
+        "slug": "Slug",
+        "titleFr": "Titre (FR)",
+        "titleEn": "Titre (EN)",
+        "excerptFr": "Extrait (FR)",
+        "excerptEn": "Extrait (EN)",
+        "contentFr": "Contenu (FR)",
+        "contentEn": "Contenu (EN)",
+        "coverImage": "Image de couverture",
+        "isPublished": "Publier",
+        "create": "Créer",
+        "update": "Mettre à jour",
+        "cancel": "Annuler",
+        "error": "Une erreur est survenue"
+      }
+    },
+    "newsletter": {
+      "title": "Gestion de la newsletter",
+      "description": "Consultez les abonnés et envoyez des newsletters",
+      "send": "Envoyer une newsletter",
+      "confirmDelete": "Voulez-vous vraiment supprimer cet abonné ?",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "columns": {
+        "email": "Email",
+        "fullName": "Nom",
+        "subscribedAt": "Date",
+        "status": "Statut"
+      },
+      "form": {
+        "fromName": "Nom de l'expéditeur",
+        "subject": "Sujet",
+        "content": "Contenu",
+        "htmlHelp": "Utilisez du HTML pour formater votre message",
+        "testMode": "Mode test",
+        "testEmail": "Email de test",
+        "sendButton": "Envoyer à tous",
+        "testButton": "Envoyer un test",
+        "sent": "Envoyés",
+        "failed": "Échoués",
+        "cancel": "Annuler",
+        "error": "Une erreur est survenue"
+      }
+    },
+    "messages": {
+      "title": "Gestion des messages",
+      "description": "Consultez et répondez aux messages de contact",
+      "fullName": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "organization": "Organisation",
+      "message": "Message",
+      "status": "Statut",
+      "reply": "Répondre",
+      "columns": {
+        "fullName": "Nom",
+        "email": "Email",
+        "subject": "Sujet",
+        "date": "Date",
+        "status": "Statut"
+      }
+    },
+    "ecosystem": {
+      "title": "Gestion de l'écosystème",
+      "description": "Téléchargez les brochures PDF pour chaque entité de l'écosystème.",
+      "brochure": {
+        "title": "Brochure — {name}",
+        "description": "Téléchargez un fichier PDF pour la brochure de cette entité.",
+        "current": "Brochure actuelle",
+        "download": "Télécharger",
+        "uploadLabel": "Nouvelle brochure (PDF)"
+      },
+      "saving": "Enregistrement...",
+      "updateError": "Erreur lors de la mise à jour"
+    }
+  }
+}

@@ -1,0 +1,321 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Get a free hosted Postgres database in seconds: `npx create-db`
+
+generator client {
+  provider = "prisma-client"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ============================================================
+// ENUMS
+// ============================================================
+
+enum Role {
+  ADMIN
+  MEMBER
+}
+
+enum MembershipStatus {
+  PENDING
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
+enum ResourceType {
+  ARTICLE
+  BOOK_GUIDE
+  VIDEO
+  PODCAST
+  EXTERNAL_LINK
+}
+
+enum EventStatus {
+  UPCOMING
+  ONGOING
+  PAST
+  CANCELLED
+}
+
+enum EcosystemEntityCode {
+  ADEF
+  EDEN_AFRICA
+  MIA_AFRICA
+  OSCF
+}
+
+enum MediaType {
+  PRESS
+  PHOTO
+  VIDEO
+}
+
+enum ContactStatus {
+  NEW
+  READ
+  REPLIED
+  ARCHIVED
+}
+
+enum PaymentStatus {
+  PENDING
+  COMPLETED
+  FAILED
+  REFUNDED
+}
+
+// ============================================================
+// USER & AUTH
+// ============================================================
+
+model User {
+  id              String            @id @default(cuid())
+  email           String            @unique
+  password        String
+  fullName        String
+  phone           String?
+  organization    String?
+  country         String?
+  role            Role              @default(MEMBER)
+  membershipStatus MembershipStatus @default(PENDING)
+  avatarUrl       String?
+  isEmailVerified Boolean           @default(false)
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  blogPosts       BlogPost[]
+  payments        Payment[]
+  autoDiagnostics AutoDiagnostic[]
+
+  @@map("users")
+  @@index([email])
+  @@index([role])
+}
+
+// ============================================================
+// EVENTS
+// ============================================================
+
+model Event {
+  id            String      @id @default(cuid())
+  titleFr       String
+  titleEn       String
+  descriptionFr String      @db.Text
+  descriptionEn String      @db.Text
+  location      String
+  startDate     DateTime
+  endDate       DateTime
+  coverImageUrl String?
+  status        EventStatus @default(UPCOMING)
+  isFeatured    Boolean     @default(false)
+  registrationUrl String?
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  mediaItems    MediaItem[]
+
+  @@map("events")
+  @@index([status])
+  @@index([startDate])
+}
+
+// ============================================================
+// RESOURCES
+// ============================================================
+
+model Resource {
+  id            String       @id @default(cuid())
+  type          ResourceType
+  titleFr       String
+  titleEn       String
+  descriptionFr String       @db.Text
+  descriptionEn String       @db.Text
+  coverImageUrl String?
+  fileUrl       String?
+  externalUrl   String?
+  author        String?
+  isFeatured    Boolean      @default(false)
+  createdAt     DateTime     @default(now())
+  updatedAt     DateTime     @updatedAt
+
+  @@map("resources")
+  @@index([type])
+}
+
+// ============================================================
+// BLOG
+// ============================================================
+
+model BlogPost {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  titleFr       String
+  titleEn       String
+  excerptFr     String   @db.Text
+  excerptEn     String   @db.Text
+  contentFr     String   @db.Text
+  contentEn     String   @db.Text
+  coverImageUrl String?
+  isPublished   Boolean  @default(false)
+  publishedAt   DateTime?
+  authorId      String
+  author        User     @relation(fields: [authorId], references: [id])
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@map("blog_posts")
+  @@index([slug])
+  @@index([isPublished])
+}
+
+// ============================================================
+// NEWSLETTER
+// ============================================================
+
+model NewsletterSubscriber {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  fullName     String?
+  isActive     Boolean  @default(true)
+  unsubscribeToken String @unique @default(cuid())
+  subscribedAt DateTime @default(now())
+
+  @@map("newsletter_subscribers")
+  @@index([email])
+}
+
+// ============================================================
+// CONTACT
+// ============================================================
+
+model ContactMessage {
+  id           String        @id @default(cuid())
+  fullName     String
+  email        String
+  phone        String?
+  organization String?
+  subject      String
+  message      String        @db.Text
+  status       ContactStatus @default(NEW)
+  createdAt    DateTime      @default(now())
+
+  @@map("contact_messages")
+  @@index([status])
+}
+
+// ============================================================
+// PARTENARIATS
+// ============================================================
+
+model Testimonial {
+  id           String   @id @default(cuid())
+  authorName   String
+  authorRole   String
+  organization String
+  contentFr    String   @db.Text
+  contentEn    String   @db.Text
+  avatarUrl    String?
+  isFeatured   Boolean  @default(true)
+  order        Int      @default(0)
+  createdAt    DateTime @default(now())
+
+  @@map("testimonials")
+}
+
+model Partner {
+  id        String   @id @default(cuid())
+  name      String
+  logoUrl   String
+  websiteUrl String?
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+
+  @@map("partners")
+}
+
+// ============================================================
+// ECOSYSTEME
+// ============================================================
+
+model EcosystemEntity {
+  id            String              @id @default(cuid())
+  code          EcosystemEntityCode @unique
+  nameFr        String
+  nameEn        String
+  sloganFr      String?
+  sloganEn      String?
+  descriptionFr String              @db.Text
+  descriptionEn String              @db.Text
+  logoUrl       String?
+  brochureUrl   String?
+  createdAt     DateTime            @default(now())
+  updatedAt     DateTime            @updatedAt
+
+  @@map("ecosystem_entities")
+  @@index([code])
+}
+
+// ============================================================
+// MEDIAS
+// ============================================================
+
+model MediaItem {
+  id        String    @id @default(cuid())
+  type      MediaType
+  titleFr   String
+  titleEn   String
+  url       String
+  thumbnailUrl String?
+  eventId   String?
+  event     Event?    @relation(fields: [eventId], references: [id])
+  createdAt DateTime  @default(now())
+
+  @@map("media_items")
+  @@index([type])
+}
+
+// ============================================================
+// AUTO-DIAGNOSTIC (expertise conseil stratégique)
+// ============================================================
+
+model AutoDiagnostic {
+  id          String   @id @default(cuid())
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id])
+  email       String
+  organization String
+  answers     Json
+  score       Int
+  resultLevel String
+  createdAt   DateTime @default(now())
+
+  @@map("auto_diagnostics")
+  @@index([email])
+}
+
+// ============================================================
+// PAIEMENT (abonnement communauté)
+// ============================================================
+
+model Payment {
+  id              String        @id @default(cuid())
+  userId          String
+  user            User          @relation(fields: [userId], references: [id])
+  amount          Float
+  currency        String        @default("XAF")
+  status          PaymentStatus @default(PENDING)
+  externalPaymentId String?
+  paymentMethod   String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+
+  @@map("payments")
+  @@index([userId])
+  @@index([status])
+}

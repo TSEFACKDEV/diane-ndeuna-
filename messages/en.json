@@ -1,0 +1,859 @@
+{
+  "common": {
+    "buttons": {
+      "learnMore": "Learn more",
+      "contactUs": "Contact us",
+      "subscribe": "Subscribe",
+      "send": "Send",
+      "login": "Login",
+      "register": "Register",
+      "logout": "Logout",
+      "viewAll": "View all",
+      "download": "Download",
+      "readMore": "Read more",
+      "submit": "Submit",
+      "cancel": "Cancel",
+      "close": "Close",
+      "next": "Next",
+      "previous": "Previous",
+      "back": "Back"
+    },
+    "labels": {
+      "loading": "Loading",
+      "required": "Required field",
+      "email": "Email address",
+      "name": "Full name",
+      "phone": "Phone",
+      "message": "Message",
+      "organization": "Organization",
+      "country": "Country"
+    },
+    "fileUpload": {
+      "dragDrop": "Drag & drop your file here",
+      "dropHere": "Drop your file here",
+      "browse": "Browse",
+      "formats": "JPG, PNG, WEBP, GIF, PDF — max {maxSize} MB",
+      "preview": "Preview",
+      "remove": "Remove",
+      "pdfUploaded": "PDF uploaded",
+      "fileReady": "File ready",
+      "error": "Upload error"
+    }
+  },
+
+  "nav": {
+    "about": "About",
+    "expertise": "Expertise",
+    "ecosystem": "Ecosystem",
+    "resources": "Resources",
+    "blog": "Blog",
+    "events": "Events",
+    "partnerships": "Partnerships",
+    "contact": "Contact",
+    "community": "Member Area"
+  },
+
+  "footer": {
+    "tagline": "Organizational Systems Architect, dedicated to structuring women's organizations in francophone Africa.",
+    "explore": "Explore",
+    "contact": "Contact",
+    "links": {
+      "about": "About",
+      "expertise": "Our expertise",
+      "ecosystem": "Our ecosystem",
+      "resources": "Resources",
+      "blog": "Blog"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Get our news, insights and calls for projects.",
+      "placeholder": "Your email address",
+      "button": "OK",
+      "sending": "Sending...",
+      "success": "Thank you for subscribing!",
+      "error": "An error occurred, please try again."
+    },
+    "rights": "All rights reserved.",
+    "madeWith": "Structure. Accelerate. Transform."
+  },
+
+  "home": {
+    "hero": {
+      "eyebrow": "Organizational Systems Architect",
+      "tagline": "Africa does not need heroines. It needs systems. I build the systems.",
+      "quote": "I do not help women reveal themselves. I make their organizations able to stand without them.",
+      "ctaPrimary": "Discover Diane NDEUNA",
+      "ctaSecondary": "Contact us"
+    },
+    "values": {
+      "eyebrow": "Our Vision",
+      "title": "Building organizations that last",
+      "visionQuote": "Building structured, influential women's organizations grounded in sustainable performance in Africa.",
+      "description": "Over 20 years of intercontinental experience structuring women's organizations, governance and sustainable performance.",
+      "items": {
+        "excellence": {
+          "title": "Excellence and rigor",
+          "description": "A constant professional standard in every engagement."
+        },
+        "solidarity": {
+          "title": "Solidarity",
+          "description": "A collective commitment to African women leaders."
+        },
+        "integrity": {
+          "title": "Integrity",
+          "description": "Ethical and transparent conduct in everything we do."
+        },
+        "legacy": {
+          "title": "Transmission and legacy",
+          "description": "Building today what will serve future generations."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "Actions & Impact",
+      "title": "Measurable impact on the ground",
+      "labels": {
+        "organizations": "Organizations supported",
+        "sustainability": "3-year sustainability rate",
+        "women": "Women trained",
+        "partners": "Institutional partners"
+      }
+    },
+    "expertisePreview": {
+      "eyebrow": "Our Expertise",
+      "title": "Four areas of intervention",
+      "readMore": "Learn more",
+      "viewAll": "View all expertise areas",
+      "items": {
+        "structuration": {
+          "title": "Organizational Structuring",
+          "description": "Diagnostics, strategic planning and governance for lasting women's organizations."
+        },
+        "developpement": {
+          "title": "Project Development",
+          "description": "From design to deployment, including structuring and financing."
+        },
+        "formation": {
+          "title": "Training & Coaching",
+          "description": "Institutional leadership, project management and resource mobilization."
+        },
+        "conseil": {
+          "title": "Strategic Advisory",
+          "description": "Institutional support, networking and international compliance."
+        }
+      }
+    },
+    "ecosystemPreview": {
+      "eyebrow": "Our Ecosystem",
+      "title": "Four entities, one vision",
+      "viewAll": "Discover the full ecosystem",
+      "items": {
+        "adef": {
+          "name": "ADEF",
+          "tagline": "Women Entrepreneurship Development Agency"
+        },
+        "eden": {
+          "name": "EDEN AFRICA",
+          "tagline": "Structure. Accelerate. Transform."
+        },
+        "mia": {
+          "name": "MIA AFRICA",
+          "tagline": "Augmented African Women"
+        },
+        "oscf": {
+          "name": "OSCF",
+          "tagline": "Francophone Civil Society Observatory"
+        }
+      }
+    },
+    "partners": {
+      "eyebrow": "Trusted by"
+    },
+    "newsletter": {
+      "eyebrow": "Stay informed",
+      "title": "Join our community",
+      "description": "Women's entrepreneurship news, expert advice and calls for projects, straight to your inbox.",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "success": "Thank you for subscribing to the newsletter.",
+      "error": "Something went wrong, please try again."
+    }
+  },
+
+  "about": {
+    "bio": {
+      "eyebrow": "About",
+      "title": "Diane NDEUNA, Organizational Systems Architect",
+      "summary": "I transform meaningful engagement into autonomous systems capable of dialoguing with institutions.",
+      "badges": {
+        "experience": "Over 20 years of experience",
+        "eden": "Executive President of EDEN AFRICA",
+        "movement": "Permanent Secretary of the Cameroon Entrepreneurs Movement"
+      },
+      "paragraph1": "For over twenty years, Diane NDEUNA has supported the structuring of women's organizations across francophone Africa, combining methodological rigor with a deep understanding of local institutional realities.",
+      "paragraph2": "Her intercontinental experience, spanning Africa, Europe and the United States, fuels an approach that is both demanding and deeply rooted in the African contexts she serves.",
+      "languages": "French, English, Spanish (working level)",
+      "experience": "Africa, Europe, United States"
+    },
+    "timeline": {
+      "eyebrow": "Journey",
+      "title": "Over 20 years of commitment",
+      "items": {
+        "foundation": {
+          "period": "Foundations",
+          "title": "Training and early engagement",
+          "description": "Building solid expertise in organizational structuring and governance, in direct contact with African women's organizations."
+        },
+        "eden": {
+          "period": "Presidency",
+          "title": "Executive President of EDEN AFRICA",
+          "description": "Leading a pan-African impact organization, active for 14 years across 15 countries, accredited by the OIF."
+        },
+        "international": {
+          "period": "Outreach",
+          "title": "Intercontinental experience",
+          "description": "Deploying her expertise across Africa, Europe and the United States, serving an expanded institutional network."
+        },
+        "recognition": {
+          "period": "Recognition",
+          "title": "Chairing COING Francophonie 2024-2025",
+          "description": "Institutional recognition leading 128 organizations within the COING Francophonie."
+        }
+      }
+    },
+    "impacts": {
+      "eyebrow": "Actions & Impact",
+      "title": "A commitment that delivers results",
+      "stats": {
+        "organizations": "Organizations supported",
+        "sustainability": "3-year sustainability rate",
+        "women": "Women trained",
+        "partners": "Institutional partners"
+      },
+      "actions": {
+        "governance": {
+          "title": "Governance capacity building",
+          "description": "Supporting decision-making bodies toward structured, high-performing governance."
+        },
+        "financing": {
+          "title": "Access to financing",
+          "description": "Resource mobilization and support toward international financing."
+        },
+        "advocacy": {
+          "title": "Advocacy and representation",
+          "description": "Institutional representation serving the visibility of women's organizations."
+        },
+        "networks": {
+          "title": "Network building",
+          "description": "Connecting organizations with a strategic partner ecosystem."
+        }
+      }
+    },
+    "medias": {
+      "eyebrow": "Media",
+      "title": "Digital and media presence",
+      "description": "Diane NDEUNA regularly appears in the media and at institutional events to champion the voice of African women's organizations.",
+      "upcomingEvent": {
+        "title": "Trainers' training program",
+        "date": "June 9-10, 2026"
+      },
+      "cta": "View all events"
+    }
+  },
+
+  "expertise": {
+    "index": {
+      "eyebrow": "Our Expertise",
+      "title": "Four areas of intervention",
+      "description": "Structured support built around four complementary pillars, dedicated to the sustainability of women's organizations in Africa.",
+      "readMore": "Learn more",
+      "backLabel": "Back to expertise"
+    },
+    "items": {
+      "structuration": {
+        "title": "Structuring Women's Organizations",
+        "description": "Organizational diagnostics, strategic planning and governance for lasting organizations.",
+        "longDescription": "Comprehensive support to turn engagement into solid organizations, able to dialogue with institutions and stand the test of time.",
+        "servicesTitle": "Our services",
+        "services": [
+          "Organizational diagnostics",
+          "Strategic planning",
+          "Monitoring and evaluation mechanisms",
+          "Drafting bylaws and internal regulations",
+          "Setting up Boards of Directors",
+          "Financial and accounting structuring",
+          "Legal certification and compliance",
+          "Support for accreditation with international bodies"
+        ]
+      },
+      "developpement": {
+        "title": "Women's Project Development",
+        "description": "From design to deployment, including structuring and financing.",
+        "longDescription": "A structured four-phase approach to turn an idea into a funded, operational project, across key sectors of African development.",
+        "phasesTitle": "The four phases",
+        "phases": ["Design", "Structuring", "Financing", "Deployment"],
+        "sectorsTitle": "Sectors of intervention",
+        "sectors": ["Agriculture", "Education", "Technology", "Craftsmanship", "Environment", "Local governance"]
+      },
+      "formation": {
+        "title": "Training & Coaching",
+        "description": "Institutional leadership, project management and resource mobilization.",
+        "longDescription": "Training and individualized support to strengthen the skills of women leaders at every stage of their journey.",
+        "themesTitle": "Training themes",
+        "themes": [
+          "Institutional leadership",
+          "Project management",
+          "Resource mobilization"
+        ],
+        "coachingTitle": "Coaching formats",
+        "coachingTypes": [
+          "Individual coaching",
+          "Team coaching",
+          "Senior mentorship",
+          "Peer groups",
+          "Public speaking",
+          "Role transition"
+        ]
+      },
+      "conseil": {
+        "title": "Strategic Advisory & Support",
+        "description": "Institutional support, networking and international compliance.",
+        "longDescription": "High-level strategic support to structure vision, strengthen institutional positioning and prepare access to international financing.",
+        "axesTitle": "Four areas of support",
+        "axes": {
+          "strategic": "Strategic Advisory",
+          "institutional": "Institutional Support",
+          "networking": "Networking",
+          "compliance": "Compliance & Certification"
+        },
+        "diagnostic": {
+          "eyebrow": "Self-Assessment",
+          "title": "Is your organization ready for international financing?",
+          "introTitle": "Assess your organization in 5 questions",
+          "introDescription": "This quick assessment gives you an initial estimate of your institutional readiness, in under two minutes.",
+          "startButton": "Start my self-assessment",
+          "questionProgress": "Question {current} of {total}",
+          "previous": "Previous",
+          "next": "Next",
+          "continueToContact": "Continue",
+          "questions": {
+            "governance": {
+              "label": "How would you rate your organization's governance?",
+              "options": {
+                "0": "No formal governance structure",
+                "1": "Informal, undocumented governance",
+                "2": "Board in place, irregular operation",
+                "3": "Structured, documented and active governance"
+              }
+            },
+            "financials": {
+              "label": "What is the state of your financial and accounting management?",
+              "options": {
+                "0": "No formal accounting",
+                "1": "Basic accounting, not audited",
+                "2": "Accounting maintained, occasional audits",
+                "3": "Rigorous accounting, regular audits"
+              }
+            },
+            "compliance": {
+              "label": "Is your organization legally compliant?",
+              "options": {
+                "0": "Bylaws not filed or expired",
+                "1": "Bylaws filed, partial compliance",
+                "2": "Legal compliance up to date",
+                "3": "Full compliance, certifications obtained"
+              }
+            },
+            "network": {
+              "label": "What is your level of institutional networking?",
+              "options": {
+                "0": "No institutional partnerships",
+                "1": "A few informal contacts",
+                "2": "Established partnerships with some institutions",
+                "3": "Broad, active institutional network"
+              }
+            },
+            "reporting": {
+              "label": "Does your organization produce regular activity reports?",
+              "options": {
+                "0": "No reports produced",
+                "1": "Occasional, informal reports",
+                "2": "Regular annual reports",
+                "3": "Structured, regular reporting aligned with international standards"
+              }
+            }
+          },
+          "contactTitle": "Get your detailed result",
+          "contactDescription": "Share your details to access your score and receive personalized recommendations.",
+          "organizationPlaceholder": "Your organization's name",
+          "emailPlaceholder": "Your email address",
+          "seeResult": "See my result",
+          "error": "Something went wrong, please try again.",
+          "resultEyebrow": "Your readiness score",
+          "resultLevels": {
+            "NOT_READY": {
+              "title": "Foundation stage",
+              "description": "Your organization needs structuring support before pursuing international financing. Diane NDEUNA can guide you through this essential first step."
+            },
+            "IN_PROGRESS": {
+              "title": "Structuring in progress",
+              "description": "Foundations are in place, but key areas still need strengthening. Targeted support can accelerate your readiness."
+            },
+            "READY": {
+              "title": "Solid readiness level",
+              "description": "Your organization shows solid foundations. Strategic support can help you reach the final milestones toward international financing."
+            },
+            "EXCELLENT": {
+              "title": "Excellent institutional readiness",
+              "description": "Your organization is highly mature. You are ready to pursue international financing with strategic positioning support."
+            }
+          },
+          "retake": "Retake the assessment"
+        }
+      }
+    }
+  },
+
+  "ecosystem": {
+    "index": {
+      "eyebrow": "Our Ecosystem",
+      "title": "Four entities, one vision",
+      "description": "An integrated ecosystem of complementary organizations, dedicated to structuring and empowering African women.",
+      "backLabel": "Back to ecosystem"
+    },
+    "detail": {
+      "downloadBrochure": "Download brochure",
+      "brochureUnavailable": "The brochure is not yet available. Please check back soon."
+    },
+    "items": {
+      "adef": {
+        "name": "ADEF",
+        "tagline": "Women Entrepreneurship Development Agency",
+        "description": "Incubation, acceleration and market access for African entrepreneurs.",
+        "longDescription": "ADEF supports African women entrepreneurs through incubation, acceleration, investor matchmaking and market access, via targeted sectoral programs and dedicated events.",
+        "servicesTitle": "Our services",
+        "services": {
+          "incubation": "Incubation",
+          "matchmaking": "Investor matchmaking",
+          "marketAccess": "Market access"
+        }
+      },
+      "eden": {
+        "name": "EDEN AFRICA",
+        "tagline": "Structure. Accelerate. Transform.",
+        "slogan": "Structure. Accelerate. Transform.",
+        "description": "Pan-African impact organization active across 15 countries.",
+        "longDescription": "EDEN AFRICA is a pan-African impact organization active for 14 years across 15 countries, accredited by the OIF, and chairs the COING Francophonie 2024-2025 gathering 128 organizations.",
+        "stats": {
+          "years": "Years of activity",
+          "countries": "Countries of intervention",
+          "organizations": "COING member organizations"
+        },
+        "badges": {
+          "oif": "OIF Accredited",
+          "coing": "Chairing COING Francophonie 2024-2025"
+        }
+      },
+      "mia": {
+        "name": "MIA AFRICA",
+        "tagline": "Augmented African Women",
+        "slogan": "Augmented African Women",
+        "description": "Platform dedicated to women in artificial intelligence.",
+        "longDescription": "MIA AFRICA — MAMIZA Artificial Intelligence — addresses women's underrepresentation in artificial intelligence through training, mentorship and visibility spaces.",
+        "stat": "of AI professionals worldwide are women",
+        "services": {
+          "training": "Training",
+          "mentorship": "Mentorship",
+          "visibility": "Visibility spaces"
+        }
+      },
+      "oscf": {
+        "name": "OSCF",
+        "tagline": "Francophone Civil Society Observatory",
+        "description": "Platform analyzing francophone civic dynamics.",
+        "longDescription": "OSCF is an international platform analyzing civic dynamics, producing studies, data and reports on francophone civil society.",
+        "outputsTitle": "Our outputs",
+        "outputs": {
+          "studies": "Studies",
+          "data": "Data",
+          "reports": "Reports"
+        }
+      }
+    }
+  },
+
+  "resources": {
+    "index": {
+      "eyebrow": "Resources",
+      "title": "Resources & Tools",
+      "description": "Discover our articles, books, videos, podcasts and directories to strengthen your skills and network."
+    },
+    "filters": {
+      "all": "All",
+      "ARTICLE": "Articles",
+      "BOOK_GUIDE": "Books & Guides",
+      "VIDEO": "Videos",
+      "PODCAST": "Podcasts",
+      "EXTERNAL_LINK": "External links"
+    },
+    "readMore": "Learn more",
+    "noResources": "No resources available at this time."
+  },
+
+  "blog": {
+    "index": {
+      "eyebrow": "Blog",
+      "title": "Insights & White Papers",
+      "description": "Read Diane NDEUNA's analyses on structuring women's organizations, leadership and governance in Africa."
+    },
+    "backToBlog": "Back to blog",
+    "noPosts": "No articles published yet."
+  },
+
+  "events": {
+    "calendar": {
+      "eyebrow": "Calendar",
+      "title": "Upcoming Events",
+      "description": "Find all upcoming events, trainings and appointments from Diane NDEUNA and her ecosystem."
+    },
+    "past": {
+      "eyebrow": "Past Events",
+      "title": "Our past events",
+      "description": "Relive our events through photos and videos in our galleries.",
+      "noMedia": "No media available.",
+      "noMediaForEvent": "This event does not yet have media.",
+      "galleryTitle": "Complete gallery"
+    },
+    "status": {
+      "upcoming": "Upcoming",
+      "ongoing": "Ongoing",
+      "past": "Past",
+      "cancelled": "Cancelled"
+    },
+    "featured": "Featured",
+    "filters": {
+      "all": "All",
+      "upcoming": "Upcoming",
+      "ongoing": "Ongoing",
+      "past": "Past",
+      "cancelled": "Cancelled"
+    },
+    "noEvents": "No events match this filter.",
+    "readMore": "Learn more"
+  },
+
+  "partnerships": {
+    "index": {
+      "eyebrow": "Partnerships",
+      "title": "Partnerships & Collaboration",
+      "description": "Diane NDEUNA collaborates with committed organizations to structure women leaders in Africa. Join our network."
+    },
+    "partnersTitle": "Our institutional partners",
+    "collaboration": {
+      "title": "Interested in collaborating?",
+      "description": "We are open to strategic partnerships with organizations sharing our vision of structured and sustainable women's leadership in Africa.",
+      "points": [
+        "Support for your organizational structuring projects",
+        "Networking with our partner ecosystem",
+        "Access to our governance and financing expertise"
+      ],
+      "cta": "Contact us"
+    },
+    "form": {
+      "fullName": "Full name *",
+      "email": "Email *",
+      "phone": "Phone",
+      "organization": "Organization *",
+      "subject": "Subject *",
+      "message": "Message *",
+      "submit": "Send",
+      "success": "Your message has been sent.",
+      "successDetail": "We will get back to you as soon as possible.",
+      "error": "An error occurred, please try again."
+    }
+  },
+
+  "contact": {
+    "index": {
+      "eyebrow": "Contact",
+      "title": "Contact us",
+      "description": "A question, a partnership project, a support request? Write to us, we will respond quickly."
+    },
+    "info": {
+      "title": "Our contact details",
+      "social": "Follow us",
+      "qrCode": "QR Code",
+      "qrDescription": "Scan to save our contact details"
+    },
+    "form": {
+      "title": "Send us a message",
+      "description": "Fill out this form and we will get back to you as soon as possible.",
+      "fullName": "Full name *",
+      "email": "Email *",
+      "phone": "Phone",
+      "organization": "Organization",
+      "subject": "Subject *",
+      "message": "Message *",
+      "submit": "Send",
+      "success": "Your message has been sent.",
+      "successDetail": "We will get back to you as soon as possible.",
+      "error": "An error occurred, please try again."
+    }
+  },
+
+  "community": {
+    "login": {
+      "eyebrow": "Login",
+      "title": "Welcome to the Members Area",
+      "email": "Email address",
+      "password": "Password",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Sign up",
+      "error": "Invalid email or password"
+    },
+    "register": {
+      "eyebrow": "Sign up",
+      "title": "Join the community",
+      "description": "Access exclusive resources, events and structuring tools for your organization.",
+      "footer": "By signing up, you agree to our terms of service and privacy policy.",
+      "step1": {
+        "fullName": "Full name *",
+        "email": "Email *",
+        "password": "Password *",
+        "confirmPassword": "Confirm password *",
+        "next": "Next"
+      },
+      "step2": {
+        "phone": "Phone",
+        "organization": "Organization *",
+        "selectCountry": "Select your country",
+        "back": "Back",
+        "next": "Next"
+      },
+      "step3": {
+        "plans": {
+          "basic": {
+            "name": "Basic",
+            "period": "month",
+            "features": [
+              "Access to basic resources",
+              "Monthly newsletter",
+              "Online events"
+            ]
+          },
+          "premium": {
+            "name": "Premium",
+            "period": "month",
+            "features": [
+              "Access to all resources",
+              "Monthly coaching",
+              "Exclusive events",
+              "Partner network access",
+              "Advanced structuring tools"
+            ]
+          }
+        },
+        "popular": "Popular",
+        "paymentMethod": "Payment method",
+        "card": "Credit card",
+        "mobileMoney": "Mobile Money",
+        "back": "Back",
+        "submit": "Sign up and pay",
+        "processing": "Processing..."
+      }
+    },
+    "dashboard": {
+      "eyebrow": "Members Area",
+      "title": "Welcome to your space",
+      "logout": "Logout",
+      "membershipActive": "Active membership",
+      "membershipExpired": "Expired membership",
+      "membershipPending": "Pending membership",
+      "profile": "Profile",
+      "fullName": "Full name",
+      "email": "Email",
+      "organization": "Organization",
+      "country": "Country",
+      "resources": "Resources",
+      "resourcesTitle": "Member resources",
+      "resourcesDescription": "Access all exclusive tools, guides and content to structure your organization.",
+      "download": "Download",
+      "upgrade": "Upgrade to Premium",
+      "noAccess": "Your membership is expired or pending. Upgrade to access all resources.",
+      "renew": "Renew membership"
+    },
+    "newsletterUnsubscribed": {
+      "title": "You are unsubscribed",
+      "description": "You will no longer receive our newsletter emails. If this was a mistake, you can resubscribe at any time.",
+      "home": "Back to home",
+      "contact": "Contact us"
+    }
+  },
+
+  "newsletter": {
+    "success": "Thank you for subscribing!",
+    "error": "An error occurred, please try again.",
+    "confirmation": {
+      "title": "Subscription confirmed",
+      "description": "A confirmation email has been sent to you."
+    }
+  },
+
+  "admin": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "members": "Members",
+      "events": "Events",
+      "resources": "Resources",
+      "blog": "Blog",
+      "newsletter": "Newsletter",
+      "messages": "Messages",
+      "logout": "Logout"
+    },
+    "header": {
+      "welcome": "Welcome,"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "description": "Activity overview",
+      "stats": {
+        "members": "Members",
+        "events": "Events",
+        "resources": "Resources",
+        "blogPosts": "Published posts",
+        "subscribers": "Newsletter subscribers",
+        "messages": "Unread messages"
+      }
+    },
+    "members": {
+      "title": "Member management",
+      "description": "View and manage all platform members",
+      "columns": {
+        "fullName": "Name",
+        "email": "Email",
+        "organization": "Organization",
+        "role": "Role",
+        "status": "Status"
+      }
+    },
+    "events": {
+      "title": "Event management",
+      "description": "Create, edit and manage all events",
+      "add": "Add event",
+      "edit": "Edit event",
+      "confirmDelete": "Are you sure you want to delete this event?",
+      "columns": {
+        "title": "Title",
+        "location": "Location",
+        "date": "Date",
+        "status": "Status"
+      },
+      "form": {
+        "titleFr": "Title (FR)",
+        "titleEn": "Title (EN)",
+        "descriptionFr": "Description (FR)",
+        "descriptionEn": "Description (EN)",
+        "location": "Location",
+        "startDate": "Start date",
+        "endDate": "End date",
+        "status": "Status",
+        "registrationUrl": "Registration URL",
+        "coverImage": "Cover image",
+        "isFeatured": "Featured",
+        "create": "Create",
+        "update": "Update",
+        "cancel": "Cancel",
+        "error": "An error occurred"
+      }
+    },
+    "blog": {
+      "title": "Blog management",
+      "description": "Create and manage blog posts",
+      "add": "Add post",
+      "edit": "Edit post",
+      "confirmDelete": "Are you sure you want to delete this post?",
+      "published": "Published",
+      "draft": "Draft",
+      "columns": {
+        "title": "Title",
+        "slug": "Slug",
+        "status": "Status"
+      },
+      "form": {
+        "slug": "Slug",
+        "titleFr": "Title (FR)",
+        "titleEn": "Title (EN)",
+        "excerptFr": "Excerpt (FR)",
+        "excerptEn": "Excerpt (EN)",
+        "contentFr": "Content (FR)",
+        "contentEn": "Content (EN)",
+        "coverImage": "Cover image",
+        "isPublished": "Publish",
+        "create": "Create",
+        "update": "Update",
+        "cancel": "Cancel",
+        "error": "An error occurred"
+      }
+    },
+    "newsletter": {
+      "title": "Newsletter management",
+      "description": "View subscribers and send newsletters",
+      "send": "Send newsletter",
+      "confirmDelete": "Are you sure you want to delete this subscriber?",
+      "active": "Active",
+      "inactive": "Inactive",
+      "columns": {
+        "email": "Email",
+        "fullName": "Name",
+        "subscribedAt": "Date",
+        "status": "Status"
+      },
+      "form": {
+        "fromName": "Sender name",
+        "subject": "Subject",
+        "content": "Content",
+        "htmlHelp": "Use HTML to format your message",
+        "testMode": "Test mode",
+        "testEmail": "Test email",
+        "sendButton": "Send to all",
+        "testButton": "Send test",
+        "sent": "Sent",
+        "failed": "Failed",
+        "cancel": "Cancel",
+        "error": "An error occurred"
+      }
+    },
+    "messages": {
+      "title": "Message management",
+      "description": "View and reply to contact messages",
+      "fullName": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "organization": "Organization",
+      "message": "Message",
+      "status": "Status",
+      "reply": "Reply",
+      "columns": {
+        "fullName": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "date": "Date",
+        "status": "Status"
+      }
+    },
+    "ecosystem": {
+      "title": "Ecosystem management",
+      "description": "Upload PDF brochures for each ecosystem entity.",
+      "brochure": {
+        "title": "Brochure — {name}",
+        "description": "Upload a PDF file for this entity's brochure.",
+        "current": "Current brochure",
+        "download": "Download",
+        "uploadLabel": "New brochure (PDF)"
+      },
+      "saving": "Saving...",
+      "updateError": "Update error"
+    }
+  }
+}
